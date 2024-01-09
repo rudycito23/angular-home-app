@@ -1,4 +1,5 @@
 {/* to generate a new component: ng generate component componentName --skip-tests
+    also add the --skip-import flag to skip importing in NgModule
 
     *ngFor = a directive used to dynamically repeat data in a template. In JS,
               you would use a for-loop. You can utilize *ngFor to iterate over
