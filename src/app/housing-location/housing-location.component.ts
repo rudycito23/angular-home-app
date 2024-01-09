@@ -1,3 +1,14 @@
+{
+  /* To display values (properties and Input values) use interpolation in a 
+    template.
+  
+    Using the {{ expression }} in Angular templates, you can render values from
+    properties, Inputs, and valid JS expressions. Example: line 19, 21, 23 
+  
+    Notice, the value from {{ housingLocation.name }}, {{ housingLocation.state }}, {{ housingLocation.city }},
+    corresponds from the properties located in housing-location.ts  */
+}
+
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HousingLocation } from '../housing-location';
